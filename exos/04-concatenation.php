@@ -14,7 +14,8 @@ $videoGames = 'SuperNintendo, MegaDrive, Playstation';
 
 
 // TON CODE ICI
-
+$bestVideoGames1 = "les meilleures portables sont $videoGamesPortable.";
+echo "$bestVideoGames1";
 // FIN DE TON CODE
 
 
@@ -22,6 +23,8 @@ $videoGames = 'SuperNintendo, MegaDrive, Playstation';
 //*     Les meilleures consoles de jeux sont SuperNintendo, MegaDrive, Playstation
 
 // TON CODE ICI
+$bestVideoGames2 = "Les meilleures consoles de jeux sont $videoGames";
+echo "$bestVideoGames2";
 
 // FIN DE TON CODE
 
@@ -30,7 +33,8 @@ $videoGames = 'SuperNintendo, MegaDrive, Playstation';
 //*    Les meilleures consoles de jeux sont SuperNintendo, MegaDrive, Playstation, et les meilleures portables sont GameBoy, GameGear, PSP.
 
 // TON CODE ICI
-
+$bestVideoGames3 = "$bestVideoGames2, et $bestVideoGames1";
+echo "$bestVideoGames3";
 // FIN DE TON CODE
 
 
