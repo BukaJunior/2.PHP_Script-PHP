@@ -18,20 +18,20 @@ SUPPLEMENT 3D : +1 €
 //* a) Créer une variable nommée "tarifPlein" avec pour valeur 8,3
 
 // TON CODE ICI
-$tarifPlein = 8.3;
+
 // FIN DE TON CODE
 
 //* b) Créer une variable nommée "tarifReduit" avec pour valeur 6,8
 
 // TON CODE ICI
-$tarifReduit = 6.8;
+
 // FIN DE TON CODE
 
 
 //* c) Créer une variable nommée "tarifEnfant" avec pour valeur 4,5
 
 // TON CODE ICI
-$tarifEnfant = 4.5;
+
 // FIN DE TON CODE
 
 

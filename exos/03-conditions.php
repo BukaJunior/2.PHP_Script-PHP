@@ -21,7 +21,7 @@ echo PHP_EOL.'|---- $age = '.$age.' ----|'.PHP_EOL;
 $adulte = null; // null = aucune valeur d'aucun type
 
 // TON CODE ICI
-if( $adulte = 25 == true);
+
 // FIN DE TON CODE
 
 
