@@ -21,7 +21,11 @@ echo PHP_EOL.'|---- $age = '.$age.' ----|'.PHP_EOL;
 $adulte = null; // null = aucune valeur d'aucun type
 
 // TON CODE ICI
-
+if ($age >= 18) {
+    $adulte = true;
+} else {
+    $adulte = false;
+}
 // FIN DE TON CODE
 
 
@@ -34,7 +38,19 @@ $estAdolescent = null;
 $estAdulte = null;
 
 // TON CODE ICI
+if ($age >= 18) {
+    $estAdulte = true;
+    $estEnfant = false;
+} else {
+    $estAdulte = false;
+    $estEnfant = true;
+}
 
+if ($age >= 10 && $age <= 19) {
+    $estAdolescent = true;
+} else {
+    $estAdolescent = false;
+}
 // FIN DE TON CODE
 
 
