@@ -38,12 +38,12 @@ $estAdolescent = null;
 $estAdulte = null;
 
 // TON CODE ICI
-if ($age >= 18) {
-    $estAdulte = true;
-    $estEnfant = false;
-} else {
-    $estAdulte = false;
+if ($age <= 18) {
     $estEnfant = true;
+    $estAdulte = false;
+} else {
+    $estEnfant = false;
+    $estAdulte = true;
 }
 
 if ($age >= 10 && $age <= 19) {
