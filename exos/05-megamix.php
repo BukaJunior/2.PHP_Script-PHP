@@ -18,20 +18,20 @@ SUPPLEMENT 3D : +1 €
 //* a) Créer une variable nommée "tarifPlein" avec pour valeur 8,3
 
 // TON CODE ICI
-
+$tarifPlein = 8.3;
 // FIN DE TON CODE
 
 //* b) Créer une variable nommée "tarifReduit" avec pour valeur 6,8
 
 // TON CODE ICI
-
+$tarifReduit = 6.8;
 // FIN DE TON CODE
 
 
 //* c) Créer une variable nommée "tarifEnfant" avec pour valeur 4,5
 
 // TON CODE ICI
-
+$tarifEnfant = 4.5;
 // FIN DE TON CODE
 
 
@@ -48,7 +48,14 @@ function calculTarif($age) {
     $montant = 0;
     // TON CODE ICI
     // On peut utiliser ici les variables $tarifEnfant, $tarifReduit, $tarifPlein, $montant et $age
-
+    if ($age <=14) {
+        $montant = $tarifEnfant;
+    } else if ($age >= 60 || $age <=16) {
+        $montant = $tarifReduit;
+    }
+    else {
+        $montant = $tarifPlein;
+    }
     // FIN DE TON CODE
     return $montant;
 }
@@ -67,11 +74,25 @@ function calculTarifAvec3D($age, $is3D) {
     $montant = 0;
     // TON CODE ICI
     // On peut utiliser ici les variables $tarifEnfant, $tarifReduit, $tarifPlein, $montant, $age et $is3D
+    if ($age <=14) {
+        $montant = $tarifEnfant;
+    } else if ($age >= 60 || $age <=16) {
+        $montant = $tarifReduit;
+    }
+    else {
+        $montant = $tarifPlein;
+    }
 
+    if ($is3D) {
+        $montant ++;
+    } else {
+        $montant;
+    }
 
     // FIN DE TON CODE
     return $montant;
 }
+
 
 
 /*
